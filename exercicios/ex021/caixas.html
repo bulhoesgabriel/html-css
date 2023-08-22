@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:darkgrey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-family: Tahoma;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.721);
+            background-color: black;
+            color: whitesmoke;
+            border-radius: 10px;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: whitesmoke;
+            border: solid black;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 20px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        #assuntos {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.721);
+        }
+
+        article > aside {
+            background-color:darkgrey;
+            text-align: right;
+            border-radius: 20px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            margin: auto;
+            border: dotted black;
+        }
+
+        #bola > p {
+            text-align: center;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Notícias</a>
+            <a href="#">Live</a>
+            <a href="#">Seja nosso parceiro</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Tecnologia Lifestyle</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Filipe Toledo é campeão da etapa de J-Bay na África do Sul</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sunt ipsam asperiores explicabo ducimus reiciendis nam perspiciatis autem sed quas quisquam saepe, neque aperiam voluptatum voluptates recusandae quos exercitationem iste. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem iusto neque autem ipsam nobis libero rem, ipsa quam. Saepe soluta molestiae numquam assumenda qui in! Impedit doloribus voluptatibus animi dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ratione aliquid deleniti consequuntur, non odio animi incidunt voluptate, assumenda dicta laborum, itaque tempore aperiam aliquam! Ratione illo necessitatibus velit quos.</p>
+                <aside>
+                    <p>Artigo escrito por Gabriel Bulhões Emerenciano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Bulhões Emerenciano.</p>
+    </footer>
+    <br>
+    <div id="bola">
+        <br>
+        <p>Teste da Bola</p>
+    </div>
+</body>
+</html>
